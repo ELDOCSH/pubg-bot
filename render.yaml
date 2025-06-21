@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: pubg-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars:
+      - key: BOT_TOKEN
+        value: 8172069962:AAFE8cq9aBUksTIML78hdr1iF6L69_inLoU
+      - key: ADMIN_ID
+        value: "955697002"
